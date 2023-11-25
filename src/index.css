@@ -1,0 +1,50 @@
+ :root {
+  font-family: Poppins;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    margin: 0;
+    padding: 0;
+    white-space: wrap;
+    background-color: white;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+}
+
+.alignment {
+  width: 100%;
+  margin: auto;
+
+  .react-multiple-carousel__arrow {
+    position:absolute;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: 10px;
+    background: teal;
+    margin-right: 15px;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 10px;
+  background: teal;
+  margin-left: 15px;
+}
+
+.react-multiple-carousel__arrow--left:hover {
+  background: black;
+}
+
+.react-multiple-carousel__arrow--right:hover{
+  background: black;
+}
+}
+
+
+
